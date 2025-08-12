@@ -1,3 +1,27 @@
-This repo contains the training and evalution process for dataset Chart-to-Alt. 
-The Chart-to-Alt dataset is the first large scale real dataset that covers the 10k pairs of realistic sscientidfic images, which were retrieved from 3 different digital libraries. The chart images cover 20 topics keywords. The alternative text were manually created by 10 students, by using a 4 semantic level model to describe the alternative text.
+Chart-to-Alt: Training & Evaluation
+📌 Overview
+This repository contains the training and evaluation workflows for the Chart-to-Alt dataset.
+The Chart-to-Alt dataset is the first large-scale, real-world dataset for scientific chart accessibility, consisting of:
 
+10,000 pairs of realistic scientific chart images and alternative text (alt text).
+Charts collected from 3 different digital libraries.
+20 topical keywords covering a wide variety of chart types.
+Alt text manually created by 10 trained annotators using a 4-level semantic model to ensure comprehensive and structured descriptions.
+🔗 Dataset: yanchuqiao/Chart-to-Alt_v2
+
+📂 Repository Structure
+This repository includes four ZIP archives, each containing scripts and results for fine-tuning and inference on the Chart-to-Alt_v2 dataset.
+Fine-Tuning & Inference Methods
+The scripts are adapted from the following repositories:
+| Method            | Source Repository                                                                           |
+| ----------------- | ------------------------------------------------------------------------------------------- |
+| **UniChart**      | [vis-nlp/UniChart](https://github.com/vis-nlp/UniChart)                                     |
+| **TinyChart**     | [X-PLUG/mPLUG-DocOwl/TinyChart](https://github.com/X-PLUG/mPLUG-DocOwl/tree/main/TinyChart) |
+| **ChartGemma**    | [vis-nlp/ChartGemma](https://github.com/vis-nlp/ChartGemma)                                 |
+| **ChartInstruct** | [vis-nlp/ChartInstruct](https://github.com/vis-nlp/ChartInstruct)                           |
+
+🧪 Evaluation
+Evaluation scripts are organized separately and support:
+Single-prompt evaluation.
+Dual-prompt evaluation.
+Metrics include both automatic evaluation (BLEU, ROUGE-L, etc.) and semantic similarity measures.
