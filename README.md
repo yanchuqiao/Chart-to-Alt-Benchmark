@@ -24,6 +24,6 @@ The scripts are adapted from the following repositories:
 
 # Evaluation
 Evaluation scripts are organized separately and support:
-1 prompt evaluation.
-2 prompts evaluation.
+* 1 prompt evaluation.
+* 2 prompts evaluation.
 These scripts apply for all four methods. 
