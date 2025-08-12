@@ -8,7 +8,8 @@ The Chart-to-Alt dataset is the first large-scale, real-world dataset for scient
 Charts collected from 3 different digital libraries.
 20 topical keywords covering a wide variety of chart types.
 Alt text manually created by 10 trained annotators using a 4-level semantic model to ensure comprehensive and structured descriptions.
-🔗 Dataset: yanchuqiao/Chart-to-Alt_v2
+🔗 Dataset: [yanchuqiao/Chart-to-Alt_v2](https://huggingface.co/datasets/yanchuqiao/Chart-to-Alt_v2)
+
 
 # Structure
 This repository includes four ZIP archives, each containing scripts and results for fine-tuning and inference on the Chart-to-Alt_v2 dataset.
