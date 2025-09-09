@@ -1,4 +1,4 @@
-***Chart-to-Alt: Training & Evaluation***
+**Chart-to-Alt: Training & Evaluation**
 
 # Overview
 This repository contains the training and evaluation workflows for the Chart-to-Alt dataset.
