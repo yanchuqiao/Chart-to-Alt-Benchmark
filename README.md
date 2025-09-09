@@ -1,6 +1,6 @@
 #  **Chart-to-Alt: Training & Evaluation**
 
-# Overview
+## Overview
 This repository contains the training and evaluation workflows for the Chart-to-Alt dataset.
 The Chart-to-Alt dataset is the first large-scale, real-world dataset for scientific chart accessibility, consisting of:
 
@@ -11,7 +11,7 @@ Alt text manually created by 10 trained annotators using a 4-level semantic mode
 🔗 Dataset: [yanchuqiao/Chart-to-Alt_v2](https://huggingface.co/datasets/yanchuqiao/Chart-to-Alt_v2)
 
 
-# Structure
+## Structure
 This repository includes four ZIP archives, each containing scripts and results for fine-tuning and inference on the Chart-to-Alt_v2 dataset.
 Fine-Tuning & Inference Methods
 The scripts are adapted from the following repositories:
@@ -22,7 +22,7 @@ The scripts are adapted from the following repositories:
 | **ChartGemma**    | [vis-nlp/ChartGemma](https://github.com/vis-nlp/ChartGemma)                                 |
 | **ChartInstruct** | [vis-nlp/ChartInstruct](https://github.com/vis-nlp/ChartInstruct)                           |
 
-# Evaluation
+## Evaluation
 Evaluation scripts are organized separately and support:
 * 1 prompt evaluation.
 * 2 prompts evaluation.
